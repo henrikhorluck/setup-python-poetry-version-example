@@ -1,76 +1,53 @@
-# OS X / macOS
-.DS_Store
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-*env*/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-
-# PyBuilder
-target/
-
-# Ipython Notebook
-.ipynb_checkpoints
-
-# editors
-.vim
-.idea
-.ropeproject
+.ropeproject/
+*.pyc
 *.swp
-
-# docs
-doc/_build/
-
-*.lprof
-
-pip-wheel-metadata/
+*.cache
+*.project
+*.settings
+*.pydevproject
+.nfs*
+.idea*
+.vscode*
+.ropeproject
+.coverage
+*.db*
+static/*
+collected_static
+sqlite/
+local.py
+feedme.py
+*.coverage
+.sass-cache/
+.bundle
+*.log
+*.swn
+*.swm
+*~
+.DS_Store
+*.egg
+*.egg-info
+.installed.cfg
+.mr.developer.cfg
+*.swo
+filedump
+_tmp
+*.vagrant
+uploaded_media/*
+build/*
+node_modules
+.tox
+coverage
+coverage.xml
+setuptools-*.zip
+# django-webpack-loader
+bundles/
+webpack-stats.json
+webpack-stats-test.json
+.drone-secrets.yml*
+jest/
+venv/
+oidc.key
+zappa_settings.py
+requirements.txt
+.env
+.venv
