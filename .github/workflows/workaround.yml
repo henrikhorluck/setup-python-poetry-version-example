@@ -2,6 +2,9 @@ name: workaround w/ poetry env use VER
 
 on: [push]
 
+env:
+  PYTHON_VERSION: "3.9"
+
 jobs:
   build:
     runs-on: ubuntu-latest
